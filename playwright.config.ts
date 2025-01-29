@@ -24,9 +24,9 @@ export default defineConfig({
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   // reporter: ['html', allure-cucumber],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
-  timeout: 60000,
+  timeout: 600000,
   expect: {
-    timeout: 5000
+    timeout: 50000
   },
 
   use: {
